@@ -11,12 +11,12 @@
         <p> <label for="email"> Email: <input type="text" id="eamil" v-model="email" tabindex="0" placeholder="you@domain.com"></label></p>
         <p> <label for="password"> Password: <input type="password" id="password" v-model="password" tabindex="0" placeholder="password"></label></p>
 
-        <p> <label for="passwordVerify">Verify Password <input type="password" id="passwordVerify" v-model="passwordVerify" placeholder=" password" ></label></p>
+        <p> <label for="passwordVerify">Verify Password <input type="password" id="passwordVerify" v-model="passwordVerify"  ></label></p>
 
         <p><input type="submit" value="Submit"></p>
       </form>
     </div>
-    <div class="success-message" v-show="!showFrom">
+    <div class="success-message" v-show="!showForm">
       <h1>Thank you for signing up!</h1>
       <p>Please take our new member survey.</p> <router-link to="/Survey"> Click here </router-link>
     </div>
