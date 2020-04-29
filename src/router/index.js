@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
-// TODO: Import the Survey component
-// TODO: Import the Secret component
+import Survey from '@/views/Survey.vue'
 
 Vue.use(VueRouter)
 
@@ -11,8 +10,14 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  }, {
+
+    path: '/survey',
+    name: 'survey',
+    component: Survey
+
   }
-  // TODO: Add the Survey route definition
+
   // TODO: Add the Secret route definition
 ]
 
