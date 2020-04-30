@@ -24,8 +24,6 @@ const routes = [
 
   }
 
-
-  // TODO: Add the Secret route definition
 ]
 
 const router = new VueRouter({

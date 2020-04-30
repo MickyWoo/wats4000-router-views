@@ -5,13 +5,13 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        message: 'Always look in the devtools.'
-      }
+export default {
+  data () {
+    return {
+      message: 'Always look in the devtools.'
     }
   }
+}
 </script>
 
 <style scoped>
