@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
 import Survey from '@/views/Survey.vue'
-
+import Secret from '@/views/Secret.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -16,7 +16,14 @@ const routes = [
     name: 'survey',
     component: Survey
 
+  }, {
+
+    path: '/secret',
+    name: 'secret',
+    component: Secret
+
   }
+
 
   // TODO: Add the Secret route definition
 ]
